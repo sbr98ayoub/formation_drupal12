@@ -32,7 +32,7 @@
 /web/themes/contrib
 /web/profiles/contrib
 
-..ddev
+.ddev
 *.DS_Store
 .idea
 .vscode
