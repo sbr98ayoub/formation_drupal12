@@ -1,0 +1,18 @@
+uuid: 8415815d-2438-4890-bfd4-0ab193173ee5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.did
+id: taxonomy_term.did.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: did
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

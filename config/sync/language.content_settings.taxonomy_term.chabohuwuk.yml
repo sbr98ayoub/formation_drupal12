@@ -1,0 +1,18 @@
+uuid: 63a23765-57a5-4fda-99ab-7a9d4a9e05eb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.chabohuwuk
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.chabohuwuk
+target_entity_type_id: taxonomy_term
+target_bundle: chabohuwuk
+default_langcode: site_default
+language_alterable: false

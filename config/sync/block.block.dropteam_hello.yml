@@ -1,0 +1,20 @@
+uuid: 5a024693-fba6-4f63-a0b0-4b876a484b52
+langcode: fr
+status: true
+dependencies:
+  module:
+    - hello
+  theme:
+    - dropteam
+id: dropteam_hello
+theme: dropteam
+region: sidebar_first
+weight: 0
+provider: null
+plugin: hello_hello
+settings:
+  id: hello_hello
+  label: Hello
+  label_display: visible
+  provider: hello
+visibility: {  }

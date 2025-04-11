@@ -1,0 +1,22 @@
+uuid: 3f93a306-3bd8-40fd-a1b0-1e02339d2d04
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.phurelonap
+id: taxonomy_term.phurelonap.status
+field_name: status
+entity_type: taxonomy_term
+bundle: phurelonap
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

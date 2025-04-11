@@ -1,0 +1,29 @@
+uuid: fc19bece-bd42-4646-bfe7-aba451ae4fac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_de_bien
+    - node.type.annonce_immobiliere
+    - taxonomy.vocabulary.type_de_bien
+id: node.annonce_immobiliere.field_type_de_bien
+field_name: field_type_de_bien
+entity_type: node
+bundle: annonce_immobiliere
+label: 'Type de bien'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_de_bien: type_de_bien
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

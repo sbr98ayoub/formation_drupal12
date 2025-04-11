@@ -1,0 +1,18 @@
+uuid: 51336baf-cc35-4719-baa4-a6fb40e9effa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.jot
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.jot
+target_entity_type_id: taxonomy_term
+target_bundle: jot
+default_langcode: site_default
+language_alterable: false

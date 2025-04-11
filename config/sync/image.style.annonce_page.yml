@@ -1,0 +1,14 @@
+uuid: a380064a-0c44-4442-9415-13bcb6fef1ec
+langcode: en
+status: true
+dependencies: {  }
+name: annonce_page
+label: 'Annonce page'
+effects:
+  33e28ad6-55b4-4346-8014-1e66f12489ba:
+    uuid: 33e28ad6-55b4-4346-8014-1e66f12489ba
+    id: image_resize
+    weight: 2
+    data:
+      width: 300
+      height: 300

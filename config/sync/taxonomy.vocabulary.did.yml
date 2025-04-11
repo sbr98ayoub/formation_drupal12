@@ -1,0 +1,9 @@
+uuid: 55e5ff40-dacc-42ba-af89-c0c594c247cd
+langcode: und
+status: true
+dependencies: {  }
+name: did
+vid: did
+description: 'Description of did'
+weight: 2
+new_revision: false

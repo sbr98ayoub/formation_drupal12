@@ -1,0 +1,8 @@
+uuid: 7eb8cb9a-933c-43d0-9da2-af17850099d2
+langcode: fr
+status: true
+dependencies: {  }
+id: nos-concurrents
+label: 'Nos concurrents'
+description: ''
+locked: false

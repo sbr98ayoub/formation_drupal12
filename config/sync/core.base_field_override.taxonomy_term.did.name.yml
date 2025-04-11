@@ -1,0 +1,18 @@
+uuid: 913ce4e1-eed6-4da0-9a8d-7feca76042ac
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.did
+id: taxonomy_term.did.name
+field_name: name
+entity_type: taxonomy_term
+bundle: did
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

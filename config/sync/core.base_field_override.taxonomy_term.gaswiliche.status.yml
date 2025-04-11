@@ -1,0 +1,22 @@
+uuid: 65f6d8ac-ac8d-4565-82b4-dcf22ad7b170
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.gaswiliche
+id: taxonomy_term.gaswiliche.status
+field_name: status
+entity_type: taxonomy_term
+bundle: gaswiliche
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 126f99e0-32d9-43d8-9769-ff394eb0b0da
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fr
+id: taxonomy_term.fr.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: fr
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

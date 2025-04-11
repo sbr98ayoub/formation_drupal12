@@ -1,0 +1,20 @@
+uuid: 45cd659f-8a1a-4099-80b0-ee941d3e68c4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.lesla
+  module:
+    - path
+id: taxonomy_term.lesla.path
+field_name: path
+entity_type: taxonomy_term
+bundle: lesla
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

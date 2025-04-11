@@ -1,0 +1,21 @@
+uuid: 7eadae37-7154-448b-a43f-44616906f530
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+label: 'Link vers contenu du site'
+id: link_vers_contenu_du_site
+description: ''
+matchers:
+  aa873467-973e-4bbb-b31b-c58014966771:
+    id: 'entity:node'
+    uuid: aa873467-973e-4bbb-b31b-c58014966771
+    settings:
+      metadata: ''
+      bundles: {  }
+      group_by_bundle: false
+      substitution_type: canonical
+      limit: 100
+      include_unpublished: false
+    weight: 0

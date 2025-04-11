@@ -1,0 +1,22 @@
+uuid: badd108f-0a32-40b6-bbc5-856a29e05eb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.annonce_immobiliere
+id: node.annonce_immobiliere.promote
+field_name: promote
+entity_type: node
+bundle: annonce_immobiliere
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

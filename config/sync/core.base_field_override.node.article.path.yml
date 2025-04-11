@@ -1,0 +1,20 @@
+uuid: eb7c7849-0e6d-49f9-8a82-dd786cac5296
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - path
+id: node.article.path
+field_name: path
+entity_type: node
+bundle: article
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

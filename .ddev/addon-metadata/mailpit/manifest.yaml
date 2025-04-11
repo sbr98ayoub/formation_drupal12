@@ -1,0 +1,11 @@
+name: mailpit
+repository: tyler36/ddev-mailpit
+version: 1.5.1
+install_date: "2025-04-03T14:39:12Z"
+project_files:
+    - docker-compose.mailpit.yaml
+    - config.mailpit.yaml
+    - mailpit/config.yaml
+    - mailpit/.gitignore
+global_files: []
+removal_actions: []

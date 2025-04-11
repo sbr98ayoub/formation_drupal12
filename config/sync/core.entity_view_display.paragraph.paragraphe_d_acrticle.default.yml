@@ -1,0 +1,46 @@
+uuid: 56b20939-f44a-498f-9c01-c4c416611790
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraphe_d_acrticle.field_corps
+    - field.field.paragraph.paragraphe_d_acrticle.field_image
+    - field.field.paragraph.paragraphe_d_acrticle.field_titre
+    - image.style.carre_162
+    - paragraphs.paragraphs_type.paragraphe_d_acrticle
+  module:
+    - image
+    - text
+id: paragraph.paragraphe_d_acrticle.default
+targetEntityType: paragraph
+bundle: paragraphe_d_acrticle
+mode: default
+content:
+  field_corps:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: carre_162
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_titre:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

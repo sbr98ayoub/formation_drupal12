@@ -1,0 +1,9 @@
+uuid: 16f8e41f-8a83-458a-9706-92dcf7aefe90
+langcode: und
+status: true
+dependencies: {  }
+name: chabohuwuk
+vid: chabohuwuk
+description: 'Description of chabohuwuk'
+weight: 3
+new_revision: false

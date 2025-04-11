@@ -1,0 +1,22 @@
+uuid: fd0db7f0-d531-42c3-aa08-f3fd10694888
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pe
+id: taxonomy_term.pe.status
+field_name: status
+entity_type: taxonomy_term
+bundle: pe
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 0bce1d76-034e-4203-8faf-af262dd30ee7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.lesla
+id: taxonomy_term.lesla.name
+field_name: name
+entity_type: taxonomy_term
+bundle: lesla
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

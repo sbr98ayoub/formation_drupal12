@@ -1,0 +1,9 @@
+uuid: ed87cb5b-06c5-4ef6-8f09-eacf5e968b0f
+langcode: und
+status: true
+dependencies: {  }
+name: fr
+vid: fr
+description: 'Description of fr'
+weight: 7
+new_revision: false

@@ -1,0 +1,23 @@
+uuid: 3fe4052b-749c-4a88-9901-591a068080a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prix1
+    - node.type.annonce_immobiliere
+id: node.annonce_immobiliere.field_prix1
+field_name: field_prix1
+entity_type: node
+bundle: annonce_immobiliere
+label: prix1
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' $'
+field_type: integer

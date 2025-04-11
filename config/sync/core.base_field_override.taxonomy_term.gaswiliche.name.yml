@@ -1,0 +1,18 @@
+uuid: 840464ea-e311-400e-8048-795875b9bab8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.gaswiliche
+id: taxonomy_term.gaswiliche.name
+field_name: name
+entity_type: taxonomy_term
+bundle: gaswiliche
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

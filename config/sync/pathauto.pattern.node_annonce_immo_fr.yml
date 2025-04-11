@@ -1,0 +1,33 @@
+uuid: a70368ce-1840-4f5c-8df5-2fcbe743ed3c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: node_annonce_immo_fr
+label: 'Node Annonce Immo FR'
+type: 'canonical_entities:node'
+pattern: '/annonce/[node:field_type_de_bien]/[node:title]'
+selection_criteria:
+  8052f73d-1b63-4f17-86ed-307a8c0f0c98:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 8052f73d-1b63-4f17-86ed-307a8c0f0c98
+    context_mapping:
+      node: node
+    bundles:
+      annonce_immobiliere: annonce_immobiliere
+  0359fbd0-260d-4f3e-b62a-9d082804362f:
+    id: language
+    negate: false
+    uuid: 0359fbd0-260d-4f3e-b62a-9d082804362f
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      fr: fr
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Langue

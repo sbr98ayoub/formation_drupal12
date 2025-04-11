@@ -1,0 +1,17 @@
+uuid: fb45ee03-fa9e-4ca7-bd24-99000ceb46aa
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Evenement
+type: evenement
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

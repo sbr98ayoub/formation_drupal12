@@ -1,0 +1,34 @@
+uuid: ac509ff8-fd4f-4815-ac4c-f4ca44a7a76a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.nos-concurrents
+  module:
+    - language
+    - system
+  theme:
+    - olivero
+id: olivero_nosconcurrents
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:nos-concurrents'
+settings:
+  id: 'system_menu_block:nos-concurrents'
+  label: 'Nos concurrents'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en
+      fr: fr

@@ -1,0 +1,9 @@
+uuid: 8af30cb6-437c-4171-9701-787b3b97e99b
+langcode: und
+status: true
+dependencies: {  }
+name: phurelonap
+vid: phurelonap
+description: 'Description of phurelonap'
+weight: 8
+new_revision: false

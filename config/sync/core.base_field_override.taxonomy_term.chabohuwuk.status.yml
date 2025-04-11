@@ -1,0 +1,22 @@
+uuid: 49dfa466-a799-4e23-9e7d-0eed80bdc36d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.chabohuwuk
+id: taxonomy_term.chabohuwuk.status
+field_name: status
+entity_type: taxonomy_term
+bundle: chabohuwuk
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

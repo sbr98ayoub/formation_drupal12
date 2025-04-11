@@ -1,0 +1,18 @@
+uuid: 88df6983-6241-4a4b-9f59-3dc77cbfe130
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.wraswu
+id: taxonomy_term.wraswu.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: wraswu
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

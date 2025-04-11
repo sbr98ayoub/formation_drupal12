@@ -1,0 +1,8 @@
+uuid: a52856b4-869e-4391-9d06-6086cdf38220
+langcode: en
+status: true
+dependencies: {  }
+id: condions-generales
+label: 'Condions Générales'
+description: /Cndg
+locked: false

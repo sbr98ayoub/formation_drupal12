@@ -1,0 +1,38 @@
+uuid: d9155c03-3835-4c8e-9360-49014519bbac
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image
+    - paragraphs.paragraphs_type.paragraphe_d_acrticle
+  module:
+    - image
+id: paragraph.paragraphe_d_acrticle.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: paragraphe_d_acrticle
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

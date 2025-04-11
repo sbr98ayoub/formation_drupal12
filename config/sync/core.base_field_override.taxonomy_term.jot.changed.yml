@@ -1,0 +1,18 @@
+uuid: 8e62552a-e203-4158-a991-d7c8ed7c831a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.jot
+id: taxonomy_term.jot.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: jot
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

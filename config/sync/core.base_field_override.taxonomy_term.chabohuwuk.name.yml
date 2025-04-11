@@ -1,0 +1,18 @@
+uuid: 05b22b7a-eac1-4d08-9e90-3cbf17b22380
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.chabohuwuk
+id: taxonomy_term.chabohuwuk.name
+field_name: name
+entity_type: taxonomy_term
+bundle: chabohuwuk
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 8b01e668-f664-4971-8851-7545c1c00bbf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.gaswiliche
+  module:
+    - path
+id: taxonomy_term.gaswiliche.path
+field_name: path
+entity_type: taxonomy_term
+bundle: gaswiliche
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

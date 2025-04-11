@@ -1,0 +1,18 @@
+uuid: c9270b92-f163-4c0b-8265-8103efa7c897
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.wraswu
+id: taxonomy_term.wraswu.name
+field_name: name
+entity_type: taxonomy_term
+bundle: wraswu
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

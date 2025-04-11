@@ -1,0 +1,14 @@
+uuid: e009f9d6-c778-4ae5-9202-1b9cc49d5e45
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: W88NYg31DbaVNQx1Uir_dwwXHVtF09QOq4VBGsH1Snk
+id: yes_no
+label: Oui/Non
+category: Général
+likert: false
+options: "Oui: Oui\r\nNon: Non\n"

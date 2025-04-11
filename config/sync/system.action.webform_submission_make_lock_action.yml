@@ -1,0 +1,13 @@
+uuid: cfd30d2b-b57f-434d-8acb-fa6a73158e66
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: MKmZlPRk3OJKNcYdYxSeZGQUh7LMah6MRShfkzch4bk
+id: webform_submission_make_lock_action
+label: 'Verrouiller la soumission'
+type: webform_submission
+plugin: webform_submission_make_lock_action
+configuration: {  }

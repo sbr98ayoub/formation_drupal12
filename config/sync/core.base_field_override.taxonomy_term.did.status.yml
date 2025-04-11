@@ -1,0 +1,22 @@
+uuid: 05b26cde-4be9-4e53-b70c-af1a735ce453
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.did
+id: taxonomy_term.did.status
+field_name: status
+entity_type: taxonomy_term
+bundle: did
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 55049810-7bde-47b2-9a7e-deeb16541244
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cuputubejidu
+id: taxonomy_term.cuputubejidu.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: cuputubejidu
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

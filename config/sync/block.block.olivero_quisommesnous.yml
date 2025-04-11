@@ -1,0 +1,35 @@
+uuid: aedb0b28-a587-4956-8939-1dfe02295dd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.qui-sommes-nous
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_quisommesnous
+theme: olivero
+region: content
+weight: -6
+provider: null
+plugin: 'system_menu_block:qui-sommes-nous'
+settings:
+  id: 'system_menu_block:qui-sommes-nous'
+  label: qui-sommes-nous
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      administrator: administrator

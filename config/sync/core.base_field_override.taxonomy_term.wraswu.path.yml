@@ -1,0 +1,20 @@
+uuid: 166656b3-ceba-4091-93d3-ba25366bdff5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.wraswu
+  module:
+    - path
+id: taxonomy_term.wraswu.path
+field_name: path
+entity_type: taxonomy_term
+bundle: wraswu
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

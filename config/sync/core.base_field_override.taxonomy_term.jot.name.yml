@@ -1,0 +1,18 @@
+uuid: 3d32671b-ac2f-49d5-9e22-4342eb3c58b7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.jot
+id: taxonomy_term.jot.name
+field_name: name
+entity_type: taxonomy_term
+bundle: jot
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

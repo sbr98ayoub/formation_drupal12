@@ -1,0 +1,21 @@
+uuid: 38aecf71-8ac9-4293-9ebf-fb45edff3c05
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.phurelonap
+  module:
+    - text
+id: taxonomy_term.phurelonap.description
+field_name: description
+entity_type: taxonomy_term
+bundle: phurelonap
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

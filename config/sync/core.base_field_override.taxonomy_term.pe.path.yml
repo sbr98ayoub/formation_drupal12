@@ -1,0 +1,20 @@
+uuid: d4cb7b6c-171e-450f-b3d6-8c9013604d58
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pe
+  module:
+    - path
+id: taxonomy_term.pe.path
+field_name: path
+entity_type: taxonomy_term
+bundle: pe
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

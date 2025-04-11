@@ -1,0 +1,20 @@
+uuid: 755899c8-b3b5-4989-afce-e75da7a1d54b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.phurelonap
+  module:
+    - path
+id: taxonomy_term.phurelonap.path
+field_name: path
+entity_type: taxonomy_term
+bundle: phurelonap
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

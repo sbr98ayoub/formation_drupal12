@@ -1,0 +1,9 @@
+uuid: 7729de11-43e3-44b6-9e34-dc82dd153eba
+langcode: und
+status: true
+dependencies: {  }
+name: jot
+vid: jot
+description: 'Description of jot'
+weight: 6
+new_revision: false

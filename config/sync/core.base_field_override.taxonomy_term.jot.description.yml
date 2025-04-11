@@ -1,0 +1,21 @@
+uuid: 7e33c35f-9afd-4e4c-82fc-be4f2b45a6a4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.jot
+  module:
+    - text
+id: taxonomy_term.jot.description
+field_name: description
+entity_type: taxonomy_term
+bundle: jot
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

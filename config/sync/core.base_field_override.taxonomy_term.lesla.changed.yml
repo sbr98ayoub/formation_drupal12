@@ -1,0 +1,18 @@
+uuid: cc1cfc82-cebd-4b10-b202-da0f68a15c07
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.lesla
+id: taxonomy_term.lesla.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: lesla
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

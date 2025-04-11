@@ -1,0 +1,8 @@
+uuid: 8d1090d7-24b8-407b-bb2b-a1af2de47587
+langcode: en
+status: true
+dependencies: {  }
+id: qui-sommes-nous
+label: qui-sommes-nous
+description: /qui-sommes-nous
+locked: false

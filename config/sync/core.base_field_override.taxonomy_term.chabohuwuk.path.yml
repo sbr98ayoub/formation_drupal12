@@ -1,0 +1,20 @@
+uuid: 417acf47-fe01-4c3e-9257-aec4d020e1f0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.chabohuwuk
+  module:
+    - path
+id: taxonomy_term.chabohuwuk.path
+field_name: path
+entity_type: taxonomy_term
+bundle: chabohuwuk
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

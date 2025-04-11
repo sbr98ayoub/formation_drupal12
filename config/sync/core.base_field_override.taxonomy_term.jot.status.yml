@@ -1,0 +1,22 @@
+uuid: 4465ab40-c070-4251-a05e-ad3466563087
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.jot
+id: taxonomy_term.jot.status
+field_name: status
+entity_type: taxonomy_term
+bundle: jot
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

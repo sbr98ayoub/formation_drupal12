@@ -1,0 +1,9 @@
+uuid: ff9eb8b9-6203-4495-b426-f1b3d61baf00
+langcode: und
+status: true
+dependencies: {  }
+name: cuputubejidu
+vid: cuputubejidu
+description: 'Description of cuputubejidu'
+weight: 1
+new_revision: false

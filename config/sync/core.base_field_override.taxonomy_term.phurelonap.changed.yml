@@ -1,0 +1,18 @@
+uuid: 85becd59-b3d8-4c20-b55f-be8bf2c987e6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.phurelonap
+id: taxonomy_term.phurelonap.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: phurelonap
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,20 @@
+uuid: 4796eb70-d094-4147-8d72-3e161a1c259a
+langcode: en
+status: true
+dependencies:
+  module:
+    - hello
+  theme:
+    - olivero
+id: olivero_hello
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: hello_hello
+settings:
+  id: hello_hello
+  label: Hello
+  label_display: visible
+  provider: hello
+visibility: {  }

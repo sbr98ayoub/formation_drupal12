@@ -1,0 +1,18 @@
+uuid: ef0ef81f-eb3d-4318-8e4b-4bdec31a8cc6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cuputubejidu
+id: taxonomy_term.cuputubejidu.name
+field_name: name
+entity_type: taxonomy_term
+bundle: cuputubejidu
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

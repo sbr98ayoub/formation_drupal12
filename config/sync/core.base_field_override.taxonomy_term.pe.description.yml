@@ -1,0 +1,21 @@
+uuid: 379d7b11-c858-4c6c-9fb6-dc5ee1426e5f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pe
+  module:
+    - text
+id: taxonomy_term.pe.description
+field_name: description
+entity_type: taxonomy_term
+bundle: pe
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

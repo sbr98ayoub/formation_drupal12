@@ -1,0 +1,22 @@
+uuid: d0932a1f-0b94-4092-8a53-a934b010d9e8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.wraswu
+id: taxonomy_term.wraswu.status
+field_name: status
+entity_type: taxonomy_term
+bundle: wraswu
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

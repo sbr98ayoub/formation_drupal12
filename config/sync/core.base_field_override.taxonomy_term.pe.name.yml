@@ -1,0 +1,18 @@
+uuid: 12678d9e-a4dd-432d-b0e2-ee9288effc43
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pe
+id: taxonomy_term.pe.name
+field_name: name
+entity_type: taxonomy_term
+bundle: pe
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

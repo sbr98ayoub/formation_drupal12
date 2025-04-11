@@ -1,0 +1,22 @@
+uuid: e48fef83-773c-4b94-9bdf-3f91e7405bd2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.lesla
+id: taxonomy_term.lesla.status
+field_name: status
+entity_type: taxonomy_term
+bundle: lesla
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

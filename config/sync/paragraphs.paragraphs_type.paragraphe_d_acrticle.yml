@@ -1,0 +1,10 @@
+uuid: 8bdef41d-c2a5-4147-bd05-88cb4ecd015b
+langcode: fr
+status: true
+dependencies: {  }
+id: paragraphe_d_acrticle
+label: "Paragraphe d'acrticle"
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

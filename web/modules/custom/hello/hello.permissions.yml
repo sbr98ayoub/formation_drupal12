@@ -1,0 +1,5 @@
+acces hello :
+    title: Access hello
+    description: 'Allow users to acces the hello module'
+administator hello:
+   title: admin hello

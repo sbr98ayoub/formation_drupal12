@@ -1,0 +1,15 @@
+uuid: 16e6a018-6151-4a25-b6e3-717e62b738b8
+langcode: en
+status: true
+dependencies: {  }
+name: carre_162
+label: 'carre 162'
+effects:
+  b057f98b-31c5-41ad-b5b6-4d2c93a4d51b:
+    uuid: b057f98b-31c5-41ad-b5b6-4d2c93a4d51b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 162
+      height: 162
+      anchor: center-center

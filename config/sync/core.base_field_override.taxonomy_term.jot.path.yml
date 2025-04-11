@@ -1,0 +1,20 @@
+uuid: 289cf957-0987-432e-a31a-3e65d4b2391a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.jot
+  module:
+    - path
+id: taxonomy_term.jot.path
+field_name: path
+entity_type: taxonomy_term
+bundle: jot
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path
