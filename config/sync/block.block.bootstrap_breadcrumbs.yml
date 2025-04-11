@@ -1,5 +1,5 @@
 uuid: eba8e7b5-6ef1-4004-b2d6-a5caf45f9620
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: Breadcrumbs
+  label: "Fils d'ariane"
   label_display: '0'
   provider: system
 visibility: {  }
